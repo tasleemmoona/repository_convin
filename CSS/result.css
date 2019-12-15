@@ -1,0 +1,36 @@
+body {
+	background-color: orange;
+}
+
+table {
+	position: absolute;
+	top:40%;
+}
+
+#inp {
+  font-family: "Algerian";
+  border-collapse: collapse;
+  width: 98%;
+}
+
+#inp td, #inp th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#inp tr {
+	color: white;
+ }
+
+#inp tr:nth-child(even){background-color: #B2AA9D;}
+#inp tr:nth-child(odd){background-color: grey;}
+
+#inp tr:hover {background-color: #ddd;}
+
+#inp th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #49383F;
+  color: white;
+}
